@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "b4d43317-bfa0-3578-9655-d5977af53a49",
+    "name": "Pikachu",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6ffd8e13-93b2-3567-8048-e2a18782961c",
+    "name": "zi_ey",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "eaa7c943-db1e-3a62-8d05-6ce68512c835",
+    "name": "Cracebarefu",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "dd8a7137-6624-3fe7-9f70-383fcca3c1c1",
+    "name": "pikachu",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
