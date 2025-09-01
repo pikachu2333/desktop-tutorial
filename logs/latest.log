@@ -1,8 +1,7 @@
-[22:34:37] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.17.2
-[22:34:37] [ForkJoinPool-1-worker-5/WARN]: Mod icommon-bundle uses the version bundle which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'bundle'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[22:34:38] [main/INFO]: Loading 64 mods:
-	- cardboard 12
-	   \-- net_md-5_specialsource 1.11.2
+[10:37:29] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.17.2
+[10:37:29] [main/INFO]: Loading 68 mods:
+	- architectury 9.2.14
+	- carpet 1.4.112+v230608
 	- fabric-api 0.92.6+1.20.1
 	   |-- fabric-api-base 0.4.32+1802ada577
 	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
@@ -72,206 +71,96 @@
 	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
 	- fabricloader 0.17.2
 	   \-- mixinextras 0.5.0
-	- icommon-bundle bundle
-	   \-- icommon 1.20.1
-	- java 17
+	- ftbbackups2 1.0.23
+	- java 24
 	- jei 15.20.0.112
+	- lottweaks 2.3.4
+	   \-- reach-entity-attributes 2.4.0
 	- minecraft 1.20.1
+	- pikachu_ziey 1.0.0
+	- polylib 2000.0.3-build.143
+	   \-- team_reborn_energy 2.2.0
 	- worldedit 7.2.15+6463-5ca4dff
-[22:34:38] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/service/fabric1.20.1/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[22:34:38] [main/INFO]: Compatibility level set to JAVA_16
-[22:34:38] [main/INFO]: Compatibility level set to JAVA_17
-[22:34:38] [main/INFO]: Please wait, Scanning plugins for events...
-[22:34:38] [main/INFO]: Found: 0 (Took: 1ms)
-[22:34:38] [main/INFO]: Loading Libraries...
-[22:34:38] [main/INFO]: Debug: Loading library paper-api-1.20.1-R0.1-20230921.165944-178.jar
-[22:34:38] [main/INFO]: Debug: Loading library sqlite-jdbc-3.41.0.0.jar
-[22:34:38] [main/INFO]: Debug: Loading library mysql-connector-j-8.0.32.jar
-[22:34:38] [main/INFO]: Debug: Loading library commons-lang-2.6.jar
-[22:34:38] [main/INFO]: Debug: Loading library commons-collections4-4.4.jar
-[22:34:38] [main/INFO]: Debug: Loading library commons-collections-3.2.1.jar
-[22:34:38] [main/INFO]: Debug: Loading library bungeecord-chat-1.16-R0.4.jar
-[22:34:38] [main/INFO]: Debug: Loading library adventure-api-4.14.0.jar
-[22:34:38] [main/INFO]: Debug: Loading library adventure-key-4.14.0.jar
-[22:34:38] [main/INFO]: Debug: Loading library adventure-text-serializer-gson-4.14.0.jar
-[22:34:38] [main/INFO]: Debug: Loading library adventure-text-serializer-legacy-4.14.0.jar
-[22:34:38] [main/INFO]: Debug: Loading library adventure-text-serializer-plain-4.14.0.jar
-[22:34:39] [main/INFO]: -------------------------------------------------
-[22:34:39] [main/INFO]:  iCommon - Isaiah's common library for mods.
-[22:34:39] [main/INFO]:  Copyright (c) 2018-2024 Isaiah. Running on MC 1.20.1
-[22:34:39] [main/INFO]: -------------------------------------------------
-[22:34:39] [main/INFO]: Applying mixin: MixinMinecraftServer...
-[22:34:39] [main/INFO]: Applied 23 mixins.
-[22:34:39] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[22:34:44] [main/WARN]: Method overwrite conflict for setBlockState in worldedit-fabric.mixins.json:MixinLevelChunkSetBlockHook from mod worldedit, previously written by org.cardboardpowered.mixin.world.MixinWorldChunk. Skipping method.
-[22:34:44] [main/WARN]: Method overwrite conflict for getPlayer in bukkitfabric.mixins.json:network.handler.MixinSPNH_PlayerCommandPreprocessEvent_1_19 from mod cardboard, previously written by org.cardboardpowered.mixin.network.MixinServerPlayNetworkHandler. Skipping method.
-[22:34:46] [main/INFO]: 
-[22:34:46] [main/INFO]: Cardboard - CardboardPowered.org
-[22:34:46] [main/INFO]: 
-[22:34:46] [main/INFO]: Registered '7' iCommon events.
-[22:34:46] [main/INFO]: Cardboard mod Loaded.
-[22:34:46] [main/INFO]: iCommon Mod initialized.
-[22:34:46] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@15248b6e]
-[22:34:46] [main/INFO]: WorldEdit for Fabric (version 7.2.15+6463-5ca4dff) is loaded
-[22:34:46] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:34:47] [main/WARN]: Injection warning: LVT in net/minecraft/class_3225::method_14263(Lnet/minecraft/class_2338;Lnet/minecraft/class_2846$class_2847;Lnet/minecraft/class_2350;II)V has incompatible changes at opcode 358 in callback bukkitfabric.mixins.json:MixinServerPlayerInteractionManager from mod cardboard->@Inject::cb_3(Lnet/minecraft/class_2338;Lnet/minecraft/class_2846$class_2847;Lnet/minecraft/class_2350;IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;F)V.
- Expected: [F]
-    Found: [I]
-Available: [I, Lnet/minecraft/class_2680;, I]
-[22:34:47] [main/WARN]: [fabric-registry-sync] Could not find the following registries: ae2:keytypes
-[22:34:47] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[22:34:48] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
-[22:34:48] [main/INFO]: Loaded 7 recipes
-[22:34:48] [main/INFO]: Loaded 7 recipes
-[22:34:48] [main/INFO]: Loaded 1271 advancements
-[22:34:49] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.116 ms
-[22:34:49] [Server thread/INFO]: Setting IServer instance..
-[22:34:49] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[22:34:49] [Server thread/INFO]: Loading properties
-[22:34:49] [Server thread/INFO]: Default game type: SURVIVAL
-[22:34:49] [Server thread/INFO]: Generating keypair
-[22:34:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:34:49] [Server thread/INFO]: Using default channel type
-[22:34:49] [Server thread/INFO]: DEB: 1865
-[22:34:49] [Server thread/INFO]: This server is running Cardboard version git-54829c7 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: null on null)
-[22:34:49] [Server thread/INFO]: Debug logging is disabled
-[22:34:49] [Server thread/INFO]: Loading Bukkit plugins...
-[22:34:50] [Server thread/INFO]: 
-[22:34:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:34:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:34:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:34:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:34:50] [Server thread/INFO]: Preparing level "world"
-[22:34:50] [Server thread/INFO]: Setting IWorld for world "world"
-[22:34:50] [Server thread/INFO]: [STDERR]: java.lang.reflect.InvocationTargetException
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//me.isaiah.common.event.EventRegistery.invoke0(EventRegistery.java:70)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//me.isaiah.common.event.EventRegistery.invoke(EventRegistery.java:60)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//me.isaiah.common.event.EventRegistery.invoke(EventRegistery.java:54)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.class_1937.handler$zoe000$icommon$init(class_1937.java:2590)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.class_1937.<init>(class_1937.java:163)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.class_3218.<init>(class_3218.java:218)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.method_3786(MinecraftServer.java:359)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:324)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.class_3176.method_3823(class_3176.java:169)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:646)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:842)
-[22:34:50] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NoSuchFieldError: mc
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//com.javazilla.bukkitfabric.BukkitFabricMod.on_world_init__(BukkitFabricMod.java:230)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	... 16 more
-[22:34:50] [Server thread/INFO]: Setting IWorld for world "world_nether"
-[22:34:50] [Server thread/INFO]: [STDERR]: java.lang.reflect.InvocationTargetException
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//me.isaiah.common.event.EventRegistery.invoke0(EventRegistery.java:70)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//me.isaiah.common.event.EventRegistery.invoke(EventRegistery.java:60)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//me.isaiah.common.event.EventRegistery.invoke(EventRegistery.java:54)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.class_1937.handler$zoe000$icommon$init(class_1937.java:2590)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.class_1937.<init>(class_1937.java:163)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.class_3218.<init>(class_3218.java:218)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.redirect$zzd000$cardboard$spiltListener(MinecraftServer.java:2510)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.method_3786(MinecraftServer.java:399)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:324)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.class_3176.method_3823(class_3176.java:169)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:646)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:842)
-[22:34:50] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NoSuchFieldError: mc
-[22:34:50] [Server thread/INFO]: [STDERR]: 	at knot//com.javazilla.bukkitfabric.BukkitFabricMod.on_world_init__(BukkitFabricMod.java:230)
-[22:34:50] [Server thread/INFO]: [STDERR]: 	... 17 more
-[22:34:51] [Server thread/INFO]: Setting IWorld for world "world_the_end"
-[22:34:51] [Server thread/INFO]: [STDERR]: java.lang.reflect.InvocationTargetException
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at knot//me.isaiah.common.event.EventRegistery.invoke0(EventRegistery.java:70)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at knot//me.isaiah.common.event.EventRegistery.invoke(EventRegistery.java:60)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at knot//me.isaiah.common.event.EventRegistery.invoke(EventRegistery.java:54)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.class_1937.handler$zoe000$icommon$init(class_1937.java:2590)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.class_1937.<init>(class_1937.java:163)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.class_3218.<init>(class_3218.java:218)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.redirect$zzd000$cardboard$spiltListener(MinecraftServer.java:2510)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.method_3786(MinecraftServer.java:399)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.method_3735(MinecraftServer.java:324)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.class_3176.method_3823(class_3176.java:169)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:646)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:842)
-[22:34:51] [Server thread/INFO]: [STDERR]: Caused by: java.lang.NoSuchFieldError: mc
-[22:34:51] [Server thread/INFO]: [STDERR]: 	at knot//com.javazilla.bukkitfabric.BukkitFabricMod.on_world_init__(BukkitFabricMod.java:230)
-[22:34:51] [Server thread/INFO]: [STDERR]: 	... 17 more
-[22:34:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:34:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:34:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[22:34:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:34:53] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[22:34:53] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[22:34:53] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[22:34:54] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[22:34:54] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[22:34:54] [Server thread/INFO]: Time elapsed: 3585 ms
-[22:34:54] [Server thread/INFO]: Preparing start region for world minecraft:the_nether
-[22:34:56] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[22:34:56] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[22:34:56] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[22:34:56] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[22:34:56] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[22:34:57] [Server thread/INFO]: Time elapsed: 2399 ms
-[22:34:57] [Server thread/INFO]: Preparing start region for world minecraft:the_end
-[22:34:57] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:34:57] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:34:58] [Server thread/INFO]: Time elapsed: 999 ms
-[22:34:58] [Server thread/INFO]: Done (7.900s)! For help, type "help"
-[22:34:59] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:34:59] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:34:59] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:34:59] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:34:59] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:01] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:02] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:04] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:04] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:05] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:05] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:05] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:05] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:06] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:06] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:06] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:06] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:06] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:06] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:06] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:06] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:06] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:06] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:07] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:07] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:07] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:07] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:07] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:07] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:07] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:07] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:07] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:07] [Server thread/INFO]: Unknown command. Type "help" for help.
-[22:35:08] [Server thread/INFO]: There are 0 of a max of 20 players online: 
-[22:36:56] [Server thread/INFO]: Stopping the server
-[22:36:56] [Server thread/INFO]: Stopping server
-[22:36:56] [Server thread/INFO]: Saving players
-[22:36:56] [Server thread/INFO]: Saving worlds
-[22:36:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:36:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:36:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:36:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:36:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:36:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:36:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:36:57] [Server thread/INFO]: Goodbye!
+[10:37:29] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/EchoT/Documents/GitHub/desktop-tutorial/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[10:37:29] [main/INFO]: Compatibility level set to JAVA_16
+[10:37:29] [main/INFO]: Compatibility level set to JAVA_17
+[10:37:30] [main/WARN]: [carpet] detected, disabling UPDATE mixin com.sk89q.worldedit.fabric.mixin.MixinLevelChunkSetBlockHook
+[10:37:30] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[10:37:32] [main/WARN]: Method overwrite conflict for getLanguage in worldedit-fabric.mixins.json:MixinServerPlayer from mod worldedit, previously written by carpet.mixins.ServerPlayer_scarpetEventMixin. Skipping method.
+[10:37:36] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[10:37:37] [main/WARN]: Method overwrite conflict for getClimateSettings in architectury.mixins.json:BiomeAccessor from mod architectury, previously written by carpet.mixins.Biome_scarpetMixin. Skipping method.
+[10:37:38] [main/ERROR]: backup_cron is invalid, restoring default value
+[10:37:38] [main/INFO]: Using default implementation for ThreadExecutor
+[10:37:38] [main/INFO]: Initialized Scheduler Signaller of type: class net.creeperhost.ftbbackups.repack.org.quartz.core.SchedulerSignalerImpl
+[10:37:38] [main/INFO]: Quartz Scheduler v.2.0.2 created.
+[10:37:38] [main/INFO]: RAMJobStore initialized.
+[10:37:38] [main/INFO]: Scheduler meta-data: Quartz Scheduler (v2.0.2) 'ftbbackups2' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'net.creeperhost.ftbbackups.repack.org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'net.creeperhost.ftbbackups.repack.org.quartz.simpl.SimpleThreadPool' - with 1 threads.
+  Using job-store 'net.creeperhost.ftbbackups.repack.org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[10:37:38] [main/INFO]: Quartz scheduler 'ftbbackups2' initialized from an externally provided properties instance.
+[10:37:38] [main/INFO]: Quartz scheduler version: 2.0.2
+[10:37:38] [main/INFO]: Scheduler ftbbackups2_$_NON_CLUSTERED started.
+[10:37:38] [main/INFO]: Hello Fabric world!
+[10:37:38] [main/INFO]: Registering C2S receiver with id polylib:container_packet_server
+[10:37:38] [main/INFO]: Registering C2S receiver with id polylib:tile_data_server
+[10:37:38] [main/INFO]: Registering C2S receiver with id polylib:tile_packet_server
+[10:37:38] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7b6507c4]
+[10:37:38] [main/INFO]: WorldEdit for Fabric (version 7.2.15+6463-5ca4dff) is loaded
+[10:37:38] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:37:39] [main/WARN]: [fabric-registry-sync] Could not find the following registries: ae2:keytypes
+[10:37:39] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[10:37:40] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[10:37:41] [main/INFO]: Loaded 7 recipes
+[10:37:41] [main/INFO]: Loaded 1271 advancements
+[10:37:42] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.041 ms
+[10:37:42] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[10:37:42] [Server thread/INFO]: Loading properties
+[10:37:42] [Server thread/INFO]: Default game type: SURVIVAL
+[10:37:42] [Server thread/INFO]: Generating keypair
+[10:37:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:37:42] [Server thread/INFO]: Using default channel type
+[10:37:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:37:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:37:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:37:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:37:42] [Server thread/INFO]: Preparing level "world"
+[10:37:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:37:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[10:37:46] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[10:37:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[10:37:46] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:37:46] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[10:37:46] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[10:37:46] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[10:37:47] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[10:37:47] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[10:37:48] [FTB Backups Config Watcher 0/INFO]: Config at C:\Users\EchoT\Documents\GitHub\desktop-tutorial\config\ftbbackups2.json has changed, reloaded!
+[10:37:48] [Worker-Main-14/INFO]: Preparing spawn area: 60%
+[10:37:48] [Server thread/INFO]: Time elapsed: 4803 ms
+[10:37:48] [Server thread/INFO]: Done (5.933s)! For help, type "help"
+[10:52:40] [Server thread/INFO]: [Not Secure] [@] “还有5秒清除掉落物哦”
+[10:52:41] [Server thread/INFO]: [Not Secure] [@] “还有4秒清除掉落物哦”
+[10:52:42] [Server thread/INFO]: [Not Secure] [@] “还有3秒清除掉落物哦”
+[10:52:43] [Server thread/INFO]: [Not Secure] [@] “还有2秒清除掉落物哦”
+[10:52:44] [Server thread/INFO]: [Not Secure] [@] “还有1秒清除掉落物哦”
+[10:52:45] [Server thread/INFO]: [Not Secure] [@] 清理完成捏，下次清理还有15分钟
+[11:00:00] [ftbbackups2_Worker-1/INFO]: Attempting to create an automatic backup
+[11:00:00] [ftbbackups2_Worker-1/INFO]: Skipping backup, no players have been online since last backup.
+[11:02:17] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[11:02:22] [Server thread/INFO]: Stopping the server
+[11:02:23] [Server thread/INFO]: Shutdown Complete
+[11:02:23] [Server thread/INFO]: Stopping server
+[11:02:23] [Server thread/INFO]: Saving players
+[11:02:23] [Server thread/INFO]: Saving worlds
+[11:02:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:02:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11:02:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11:02:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:02:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:02:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:02:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

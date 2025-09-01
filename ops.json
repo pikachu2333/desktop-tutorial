@@ -6,6 +6,12 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "a53c7a2c-3211-38a7-819c-a3b171da45d3",
+    "name": "Pyrite",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "6ffd8e13-93b2-3567-8048-e2a18782961c",
     "name": "zi_ey",
     "level": 4,
@@ -18,8 +24,20 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "256b8018-c7ca-39da-998b-d90b5eaafc55",
+    "name": "xiyushoujun",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "dd8a7137-6624-3fe7-9f70-383fcca3c1c1",
     "name": "pikachu",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "00f0d403-cfc9-313d-83fc-60f95b41480f",
+    "name": "ziey",
     "level": 4,
     "bypassesPlayerLimit": false
   }
